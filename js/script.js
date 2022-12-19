@@ -1,9 +1,11 @@
 /* ARRAY WITH LOVE PHRASES */
 const phrases = [
-    "Te quiero más que a nada en este mundo.",
-    "Eres lo mejor que me ha pasado.",
-    "Eres mi todo.",
-    "Te amo más allá de las palabras."
+    "You should be kissed and often, and by someone who knows how.",
+    "Soul meets soul on lovers’ lips.",
+    "Have enough courage to trust love one more time and always one more time.",
+    "Whatever our souls are made of, his and mine are the same.",
+    "There is only one happiness in this life, to love and be loved.",
+    "To love and be loved is to feel the sun from both sides."
 ];
 
 /* FUNCTIONS */
