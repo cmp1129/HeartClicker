@@ -9,13 +9,7 @@
 
 ## About HeartClicker
 
-Heart Clicker is a web application that generates random love phrases every time we "click" on the image.
-
-Possible improvements:
-1- Add a counter for the times you have tapped on the heart.
-2- Add an icon of a love letter that shows all the phrases that have already appeared on the screen.
-3- Add a gallery of hearts so you can change the default color of the heart.
-
+Heart Clicker is a web application that generates random love phrases every time we "click" on the heart image.
 
 ## Possible improvements
 

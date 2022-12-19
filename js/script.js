@@ -45,7 +45,7 @@ function showCounter() {
     const currentCount = parseInt(document.getElementById("counter-text").innerHTML, 10);
 
     // Mostramos el contador como una notificación con el texto "Has echo click X veces"
-    alert(`Has echo click ${currentCount} veces`);
+    alert(`You have click ${currentCount} times`);
 }
 
 
@@ -55,4 +55,4 @@ document.getElementById("heart").addEventListener("click", showRandomPhrase);
 document.getElementById("heart").addEventListener("mouseenter", resizeHeart);
 document.getElementById("heart").addEventListener("mouseleave", restoreHeart);
 document.getElementById("heart").addEventListener("click", increaseCounter);
-document.getElementById("counter-icon").addEventListener("mouseenter", showCounter);
+document.getElementById("counter-icon").addEventListener("click", showCounter);
