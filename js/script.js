@@ -17,14 +17,14 @@ function showRandomPhrase() {
 
 // Function resize heart
 function resizeHeart() {
-    document.getElementById("heart").style.width = "120px";
-    document.getElementById("heart").style.height = "120px";
+    document.getElementById("heart").style.width = "200px";
+    document.getElementById("heart").style.height = "200px";
 }
 
 // Function restore heart
 function restoreHeart() {
-    document.getElementById("heart").style.width = "100px";
-    document.getElementById("heart").style.height = "100px";
+    document.getElementById("heart").style.width = "150px";
+    document.getElementById("heart").style.height = "150px";
 }
 
 // Function counter
