@@ -13,6 +13,22 @@ body {
   text-shadow: 2px 2px 4px #000000;
 }
 
+/* MOVING HEART */
+.moving_heart {
+  position: absolute; /* posición absoluta para poder mover el elemento */
+  top: 0; /* coloca el elemento en la parte superior de la pantalla */
+  left: 0; /* coloca el elemento en la parte izquierda de la pantalla */
+  cursor: pointer; /* cambia el cursor cuando el usuario pasa el mouse por encima del elemento */
+  transition: transform 0.5s ease; /* agrega una transición cuando el elemento cambie de tamaño */
+}
+
+#message_moving_heart {
+  display: none; /* oculta el mensaje */
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+
+
 #heart-container {
   position: absolute;
   top: 50%;

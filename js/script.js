@@ -48,6 +48,22 @@ function showCounter() {
     alert(`You have click ${currentCount} times`);
 }
 
+// Selecciona el elemento "heart" y el mensaje de felicitación
+const movingheart = document.querySelector('.moving_heart');
+const messagemovingheart = document.querySelector('#message_moving_heart');
+
+// Mueve el elemento "heart" de lado a lado de la pantalla
+let left = 0;
+let direccion = 1;
+setInterval(() => {
+  left += direccion;
+  if (left > window.innerWidth - 50) {
+    direccion = -1;
+  } else if (left < 0) {
+    direccion = 1;
+  }
+  movingheart.style.left = `${left}px`;
+}, 10);
 
 
 /* EVENT LISTENER */
@@ -56,3 +72,9 @@ document.getElementById("heart").addEventListener("mouseenter", resizeHeart);
 document.getElementById("heart").addEventListener("mouseleave", restoreHeart);
 document.getElementById("heart").addEventListener("click", increaseCounter);
 document.getElementById("counter-icon").addEventListener("click", showCounter);
+
+// Cuando el usuario haga clic en el elemento "heart", este desaparece y aparece el mensaje de felicitación
+movingheart.addEventListener('click', () => {
+    movingheart.style.display = 'none';
+    messagemovingheart.style.display = 'block';
+});
